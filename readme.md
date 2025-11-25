@@ -82,7 +82,7 @@ docker compose up -d
 
 ```bash
 # build (skip tests in dev)
-cd twitter-to-kafka-service
+cd x-to-kafka-service
 mvn clean package -DskipTests
 # run locally
 java -jar target/*-SNAPSHOT.jar
